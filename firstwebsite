@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+	<title>My First Website!</title>
+	  <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="Rylee Alden">
+<meta property="og:image" content="img/">
+
+
+ </head>
+<body>
+
+		<nav>
+			<a href="list.html">Empty page</a>
+			<a href="https://discoverycenter.net/about-discovery-center/staff-contact-list/">NLDC Staff</a>
+		</nav>
+	<main>
+		<section>
+
+			<h1>Rylee Alden | rmalden@missouri.edu </h1>
+			<p>"I'd be taller if I wasn't so short."</p>
+
+			<a href="mailto:rmalden@missouri.edu?subject=Email&nbsp;from&nbsp;Rylee">
+			
+				<img src="rmalden.png" alt="A woman in a black top stands in front of green trees." width="200" height="250">
+			</a>
+
+			<p> Programs I've been involved with at Mizzou:</p>
+			<ul>
+				<li><a href="https://cafnr.missouri.edu/tag/forestry-club/">MU Forestry Club</a></li>
+				<li><a href="https://music.missouri.edu/ensemble/marching-mizzou">Marching Mizzou</a></li>
+				<li><a href="https://spjmizzou.wordpress.com/">Society of Professional Journalists</a></li>
+				<li><a href="https://www.saltcolumbia.com/">The Salt Company</a></li>
+
+			</ul>
+
+
+		</section>
+</main>
+</body>
+</html>
