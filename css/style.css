@@ -92,39 +92,9 @@ main {
 		background-color: white;
 		font-family: monospace;
 		max-width: 800px;
-		padding: 5px;
+		padding: 10px;
+		align-self: center;
 
 	
 	}
 
-
-
-example-image {
-	display: flex;
-	flex-direction: column;
-	margin: 3rem;
-
-}
-
-.example-image img {
-	display: flex;
-  	max-width:230px;
-  	max-height:95px;
- 	width: auto;
-  	height: auto;
-  	margin: 1rem;
-}
-
-.listings2 {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-
-
-.list-link {
-	text-decoration: underline solid rgba(153,0,0,.5) 3px;
-
-
-
-}
