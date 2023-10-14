@@ -1,5 +1,5 @@
 body {
-	background-color: palegreen;
+	background-color: lightblue;
 	
 }
 
@@ -20,10 +20,9 @@ nav ul {
 }
 
 nav ul li {
-	background-color: orange;
+	background-color: grey;
 	flex-flow: row wrap;
-	align-items: stretch;
-	list-style-type: none;
+	align-items: center;
 	padding: 1rem;
 	max-width: 100%;
 	border-radius: 0.1rem;
@@ -47,7 +46,7 @@ nav ul li a:hover {
 
 
 a:visited {
-  color: cyan;
+  color: black;
   text-decoration-color: black;
   
 }
