@@ -20,7 +20,7 @@ nav ul {
 }
 
 nav ul li {
-	background-color: grey;
+	background-color: white;
 	flex-flow: row wrap;
 	align-items: center;
 	padding: 1rem;
@@ -31,7 +31,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: floralwhite;
+	color: darkblue;
 }
 
 nav ul li a:visited {
@@ -88,9 +88,11 @@ main {
 
 	footer {
 		text-align: center;
-		background-color: darkblue;
+		background-color: white;
 		font-family: monospace;
+		max-width: 800px;
 		margin: 40px 0;
+
 	
 	}
 
