@@ -92,6 +92,8 @@ main {
 		font-family: monospace;
 		max-width: 800px;
 		margin: 40px 0;
+		display: flex;
+
 
 	
 	}
