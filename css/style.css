@@ -31,12 +31,12 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: forestgreen;
+	color: floralwhite;
 }
 
 nav ul li a:visited {
-	text-decoration: none;
-	color: forestgreen;
+	text-decoration: underline;
+	color: black;
 }
 
 nav ul li a:hover {
@@ -66,15 +66,22 @@ main {
 	h1 {
 		font-size: 20px;
 		font-family: 'Montserrat', sans-serif;
+		font-size: 3em;
 	}
 
 	h2 {
 	font-family: 'Lora', serif;
 	font-style: italic;
+	font-size: 1em;
+	}
+
+	h3 {
+	font-family: 'Lora', serif;
+	font-size: 2em;
 	}
 
 	p { 
-	font-size:12px;
+	font-size: 0.8em;
 	 font-family: 'Lora', serif;
 	}
 	
