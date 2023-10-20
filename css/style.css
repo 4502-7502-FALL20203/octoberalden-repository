@@ -6,7 +6,6 @@ body {
 
 nav {
 	background-color: darkblue;
-	max-width: 800px;
 	margin: auto;
 	font-size: 1.5em;
 }
@@ -51,13 +50,13 @@ a:visited {
   
 }
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 555px) {
     body { background-color: slategrey; }
 }
-@media screen and (min-width: 601px) and (max-width: 899px) {
+@media screen and (min-width: 556px) and (max-width: 800px) {
     body { background-color: lightpink; }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 801px) {
     body { background-color: lightblue; }
 
 main {
@@ -67,6 +66,37 @@ main {
 }
 
 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+.image-test {
+  border: 10px ridge #darkblue;
+  background-color: #floralwhite;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-test img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.image-test p {
+  font: sans-serif;
+  text-align: center;
+  max-width: 300px;
+}
 
 	body {
 		font-family: 'Lora', serif;
@@ -74,21 +104,22 @@ main {
 	h1 {
 		font-size: 20px;
 		font-family: 'Montserrat', sans-serif;
-		font-size: 3em;
+		font-size: 4em;
 		font-style: normal;
 	}
 
 	h2 {
 	font-family: 'Cinzel', serif;
 	font-style: italic;
-	font-size: 1em;
+	font-size: 2em;
 	}
 
 	h3 {
 	font-family: 'Lora', serif;
-	font-size: 2em;
+	font-size: 1em;
 	font-style: italic;
 	}
+
 
 	p { 
 	font-size: 0.8em;
