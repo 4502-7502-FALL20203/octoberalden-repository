@@ -72,7 +72,7 @@ main {
 }
 
 div {
-   word-wrap: break-word;
+   align-items: center;
    width: 300px;
 }
 
@@ -85,6 +85,7 @@ div {
 .summary{ 
 display:flex; 
 align-items: center;
+align-self: center;
 max-width: 300;
 }
 
@@ -93,13 +94,13 @@ max-width: 300;
 	}
 	h1 {
 		font-size: 20px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Cinzel', serif;
 		font-size: 4em;
 		font-style: normal;
 	}
 
 	h2 {
-	font-family: 'Cinzel', serif;
+	font-family: 'Monsterrat', sans-serif;
 	font-style: italic;
 	font-size: 2em;
 	}
@@ -116,7 +117,14 @@ max-width: 300;
 	 font-family: 'Lora', serif;
 	}
 	
+.font-specific {
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
 
+.sitcoms {
+	text-align: center;
+}
 
 	footer {
 		text-align: center;
