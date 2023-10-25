@@ -57,7 +57,8 @@ a:visited {
     body { background-color: lightpink; }
 }
 @media screen and (min-width: 801px) {
-    body { background-color: lightblue; }
+    body { background-color: lightblue; 
+    	align-items: center}
 
 main {
 	max-width: 800px;
