@@ -65,37 +65,27 @@ main {
 	font-size: 1.4rem;
 }
 
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.posters {
+	display: flex;
+	align-items: center;
+	background-color: grey;
 }
 
-.box div {
-  width: 100px;
-  height: 100px;
+div {
+   word-wrap: break-word;
+   width: 300px;
 }
 
-.image-test {
-  border: 10px ridge #darkblue;
-  background-color: #floralwhite;
-  padding: 0.5rem;
-  display: flex;
-  flex-direction: column;
+
+.title{
+	display: flex;
+	align-items: center;
+
 }
-
-.image-test img {
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
-  text-align: center;
-  }
-
-.image-test p {
-  font: sans-serif;
-  text-align: center;
-  max-width: 300px;
+.summary{ 
+display:flex; 
+align-items: center;
+max-width: 300;
 }
 
 	body {
