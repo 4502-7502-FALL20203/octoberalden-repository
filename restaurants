@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
-    <title>Top 10 Sitcoms</title>
+    <title>Best Mexican Restaurants</title>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,7 @@
 <main><nav>
       <ul>
       <li><a href="index.html">About Me</a>
+      <li><a href="sitcoms.html">The Top Sitcoms</a>
       <li><a href="https://discoverycenter.net/about-discovery-center/staff-contact-list/">NLDC Staff</a>
       </ul>
     </nav>
@@ -31,7 +32,9 @@
 </section>
 
 <section>
-
+<h4>Location: 6655 Manchester Ave., St. Louis, MO 63139
+	Phone: <a href="tel:+13149448226">
+</h4>
 </div>
 </section>
 
@@ -56,7 +59,7 @@
 <section>
   <div style="text-align:center">
 <h2>Abelardo’s Mexican Fresh</h2>
-<img src="img/modernfamily.jpg" alt="A family of 13 people and one dog stand in a line facing a sunset." width=200 height=250>
+
 <p>Abelardo’s serves authentic Mexican food fast. Their drive through ensures a fast experience, but the food is full of flavor. The convenience and speed of fast food meets the quality of authentic Mexican cuisine at Abelardo’s.</p>
 </div>
 </section>
@@ -88,7 +91,7 @@
 <section>
   <div style="text-align:center">
 <h2>Taqueria Y Huaracheria Garcia</h2>
-<img src="img/30rock.jpg" alt="Three men and two women in formal attire stand posed in a line." width=300 height=250>
+
 <p>This hidden gem offers a variety of authentic Mexican food made to order. Whether you’re looking for tortas, burritos, huaraches, tostadas or just a simple taco, this is the place to go! They use fresh ingredients and offer a topping bar to dress your tacos to your personal preference!</p>
 
 </div>
