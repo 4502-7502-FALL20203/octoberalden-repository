@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <title>Top 10 Sitcoms</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora:wght@500&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="css/style.css"> 
+
+  </head>
+
+<body>
+<main><nav>
+      <ul>
+      <li><a href="index.html">About Me</a>
+      <li><a href="https://discoverycenter.net/about-discovery-center/staff-contact-list/">NLDC Staff</a>
+      </ul>
+    </nav>
+  </main>
+    <div>
+      <h1 class='sitcoms'>Must-try Mexican Restaurants in Missouri</h1>
+        <h3 class="font-specific">Whether you’re in it for authentic Mexican cuisine, or prefer something more on the side of Tex-Mex, Missouri has some of the best Mexican restaurants in the Midwest. Here’s some of the best Mexican restaurants to try the next time you’re traveling in Missouri.</h3>
+      </div>
+<section>
+  <div class="title">
+<h2>Sunny's Cantina</h2>
+</div>
+</section>
+
+<section>
+
+</div>
+</section>
+
+<section>
+<div class="summary">
+<p>This restaurant sits just far enough outside St. Louis to get away from the traffic, but close enough to stay connected to all the shops and attractions. Their Mexican-American menu includes twists on well-known classics, like asada fries and a rotating burrito of the month. Their diverse menu is sure to offer something for everyone!
+</p>
+</div>
+
+</section>
+
+
+<section>
+  <div style="text-align:center">
+<h2>Taco Buddha</h2>
+
+<p>Taco Buddha combines their “Tex Mex” roots with a modern twist in their small but delicious menu. Nearly every item on the menu is gluten free, and many can be made dairy free with simple substitutions. However- this isn’t just health food. The dishes are delicious, even for those with no food allergies.
+</p>
+</div>
+</section>
+
+<section>
+  <div style="text-align:center">
+<h2>Abelardo’s Mexican Fresh</h2>
+<img src="img/modernfamily.jpg" alt="A family of 13 people and one dog stand in a line facing a sunset." width=200 height=250>
+<p>Abelardo’s serves authentic Mexican food fast. Their drive through ensures a fast experience, but the food is full of flavor. The convenience and speed of fast food meets the quality of authentic Mexican cuisine at Abelardo’s.</p>
+</div>
+</section>
+
+<section>
+  <div style="text-align:center">
+<h2>El Maguey</h2>
+
+<p>El Maguey offers a variety of authentic Mexican and Mexican-American dishes. Their extensive menu is sure to have options for all customers, regardless of their palette. Beyond the fantastic food, the environment is warm and welcoming, and servers are willing to answer questions or modify dishes to fit customers’ taste.</p>
+</div>
+</section>
+
+<section>
+  <div style="text-align:center">
+<h2>Los Arcos Mexican Food & Tequila Bar</h2>
+
+<p>Los Arcos prides themselves on providing affordable food that tastes great. They use fresh ingredients, and even make their guacamole to order. They also feature daily specials on various foods, and a free drink with every dish!</p>
+</div>
+</section>
+
+<section>
+  <div style="text-align:center">
+<h2>Arzola’s Fajitas and Margaritas</h2>
+
+<p>Although Arzola’s offers several different dishes, nearly everyone visits for their signature fajitas. However, the fajitas are served on a normal plate, rather than a sizzling pan. Nearly every dish has a “fajita” component, whether it’s steak, chicken, shrimp, vegetables, a burrito or nachos. They pride themselves in providing friendly, efficient service that sticks to the core components of Tex-Mex cuisine.</p>
+</div>
+</section>
+
+<section>
+  <div style="text-align:center">
+<h2>Taqueria Y Huaracheria Garcia</h2>
+<img src="img/30rock.jpg" alt="Three men and two women in formal attire stand posed in a line." width=300 height=250>
+<p>This hidden gem offers a variety of authentic Mexican food made to order. Whether you’re looking for tortas, burritos, huaraches, tostadas or just a simple taco, this is the place to go! They use fresh ingredients and offer a topping bar to dress your tacos to your personal preference!</p>
+
+</div>
+
+</section>
+
+
+
+
+</body>
+
+<footer>
+  <p>Rylee Alden, 2023</p>
+</footer>
+
+
+
+
+</html>
