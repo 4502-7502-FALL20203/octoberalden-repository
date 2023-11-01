@@ -25,6 +25,10 @@
       <h1 class='sitcoms'>Must-try Mexican Restaurants in Missouri</h1>
         <h3 class="font-specific">Whether you’re in it for authentic Mexican cuisine, or prefer something more on the side of Tex-Mex, Missouri has some of the best Mexican restaurants in the Midwest. Here’s some of the best Mexican restaurants to try the next time you’re traveling in Missouri.</h3>
       </div>
+
+      <div>
+        <iframe title="Best Mexican Restuarants in Missouri" aria-label="Locator maps" id="datawrapper-chart-WvR7a" src="https://datawrapper.dwcdn.net/WvR7a/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="549" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script></div>
 <section>
   <div class="title">
 <h2>Sunny's Cantina</h2>
