@@ -3,6 +3,12 @@ body {
 	
 }
 
+section {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
 
 nav {
 	background-color: darkblue;
@@ -111,7 +117,7 @@ main {
 
 div {
    align-items: center;
-   width: 300px;
+ 
 }
 
 
