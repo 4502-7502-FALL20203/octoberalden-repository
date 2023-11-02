@@ -60,6 +60,31 @@ footer {
 	
 	}
 
+h1 {
+		
+		font-family: 'Cinzel', serif;
+		font-size: 4em;
+		font-style: normal;
+	}
+
+	h2 {
+	font-family: 'Monsterrat', sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	}
+
+	h3 {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-style: italic;
+	}
+
+
+	p { 
+	font-size: 0.8em;
+	 font-family: 'Lora', serif;
+	}
+	
 
 @media screen and (min-width: 0px) and (max-width: 555px) {
     body { background-color: slategrey; }
@@ -113,30 +138,6 @@ max-width: 300;
 }
 
 	
-	h1 {
-		font-size: 20px;
-		font-family: 'Cinzel', serif;
-		font-size: 4em;
-		font-style: normal;
-	}
-
-	h2 {
-	font-family: 'Monsterrat', sans-serif;
-	font-style: italic;
-	font-size: 2em;
-	}
-
-	h3 {
-	font-family: 'Lora', serif;
-	font-size: 1em;
-	font-style: italic;
-	}
-
-
-	p { 
-	font-size: 0.8em;
-	 font-family: 'Lora', serif;
-	}
 	
 .font-specific {
 	font-family: 'Lora', serif;
