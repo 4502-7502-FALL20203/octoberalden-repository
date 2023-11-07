@@ -5,8 +5,8 @@ body {
 
 section {
 	display: flex;
-	flex-direction: row;
-	text-align: center;
+	flex-direction: column;
+
 }
 
 
@@ -97,6 +97,14 @@ h1 {
 }
 @media screen and (min-width: 556px) and (max-width: 800px) {
     body { background-color: lightpink; }
+
+    .posters {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: grey;
+}
 }
 @media screen and (min-width: 801px) {
     body { background-color: lightblue; 
@@ -111,6 +119,8 @@ main {
 
 .posters {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	background-color: grey;
 }
