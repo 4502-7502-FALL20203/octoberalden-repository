@@ -20,7 +20,7 @@ nav ul {
 	display: flex;
 	align-items: stretch;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	
 }
 
@@ -58,13 +58,19 @@ a:visited {
 
 footer {
 		text-align: center;
-		background-color: white;
+		background-color: lightgrey;
 		font-family: monospace;
-		padding: 10px;
-		align-self: center;
-
-	
+		padding: 5px;
+		margin-top: 3%;
 	}
+
+div {
+   align-items: center;
+}
+
+img {
+	align-items: center;
+}
 
 h1 {
 		
@@ -88,9 +94,17 @@ h1 {
 
 	p { 
 	font-size: 0.8em;
-	 font-family: 'Lora', serif;
+	font-family: 'Lora', serif;
+	text-align: center;
+	
 	}
 	
+.container {
+	margin: 2em;
+	width: 20em;
+	height: 15em;
+}
+
 .gallery-image {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -102,13 +116,14 @@ h1 {
 }
 
 .gallery-image img {
-  width: 100%;
+  width: 70%;
+  justify-content: center;
 }
 
 .button_holder {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 1rem;
 }
 
@@ -117,7 +132,7 @@ h1 {
 }
 
 button {
-  background-color: #E3AD16;
+  background-color: #floralwhite;
   border: none;
   color: #000;
   text-align: center;
@@ -127,23 +142,23 @@ button {
   cursor: pointer;
   width: 100px;
   padding: 0.8rem 1rem;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
+.poster { 
+border: 5px solid;
+display:flex; 
+justify-content: center;
+}
+
+}
 @media screen and (min-width: 0px) and (max-width: 555px) {
     body { background-color: slategrey; }
 }
+
 @media screen and (min-width: 556px) and (max-width: 800px) {
     body { background-color: lightpink; }
 
-    .posters {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: grey;
-}
-}
 @media screen and (min-width: 801px) {
     body { background-color: lightblue; 
     	align-items: center;
@@ -153,19 +168,6 @@ main {
 	max-width: 800px;
 	margin: auto;
 	font-size: 1.4rem;
-}
-
-.posters {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: grey;
-}
-
-div {
-   align-items: center;
- 
 }
 
 
@@ -184,13 +186,6 @@ div {
 	align-items: center;
 
 }
-.summary { 
-display:flex; 
-align-items: center;
-align-self: center;
-max-width: 300;
-}
-
 
 
 .font-specific {
@@ -200,7 +195,6 @@ max-width: 300;
 
 .sitcoms {
 	text-align: center;
-}
 }
 
 
