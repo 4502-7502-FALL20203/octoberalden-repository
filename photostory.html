@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora:wght@500&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 
  <link rel="stylesheet" href="css/style.css"> 
- <script type="text/javascript" src="gallery.js" defer></script>
+
 
   </head>
 
@@ -29,34 +29,43 @@
 </main>
 
 <body>
-  <figure class="gallery-image">
+
+  <div class="button_holder">
+      <button id="button_previous">Previous</button>
+      <p id="stepper"></p>
+      <button id="button_next">Next</button>
+    </div>
+
+  <figure class="gallery-image hideThis">
       <img src="img/1.jpg" alt="Two men stand near a canoe loaded with gear. A woman sits in the front of the canoe.">
       <figcaption>
         T
       </figcaption>
+</figure>
 
-
-    </figure><figure class="gallery-image hideThis">
+  <figure class="gallery-image hideThis">
       <img src="img/2.jpg" alt="A group of four canoes sit in the shallows of the river after being launched.">
       <figcaption>
         T
       </figcaption>
+   </figure>
 
-
-    </figure><figure class="gallery-image hideThis">
+    <figure class="gallery-image hideThis">
       <img src="img/3.jpg" alt="A man points out the grooves on a muscle species to an older man.">
       <figcaption>
         T
       </figcaption>
+</figure>
 
-
-    </figure><figure class="gallery-image hideThis">
+    <figure class="gallery-image hideThis">
       <img src="img/4.jpg" alt="">
       <figcaption>
         T
       </figcaption>
 
-    </figure><figure class="gallery-image hideThis">
+    </figure>
+
+    <figure class="gallery-image hideThis">
       <img src="img/5.jpg" alt="">
       <figcaption>
         T
@@ -98,11 +107,7 @@
       </figcaption>
     </figure>
 
-    <div class="button_holder">
-      <button id="button_previous">Previous</button>
-      <p id="stepper"></p>
-      <button id="button_next">Next</button>
-    </div>
+    
 </body>
 
 
@@ -111,6 +116,6 @@
 </footer>
 
 
-
+ <script src="js/gallery.js"></script>
 
 </html>
