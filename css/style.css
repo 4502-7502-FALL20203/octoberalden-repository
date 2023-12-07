@@ -277,6 +277,10 @@ ul {
 	padding-top: 8%;
 }
 
+.lower {
+	padding-bottom: 3%;
+}
+
 .gallery-image img {
   max-width: 40%; 
   height: auto; 
@@ -300,6 +304,37 @@ ul {
 #stepper {
   display: inline-block;
 }
+
+#button_previous {
+	background-color: darkblue;
+    color: white;
+		font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 45px;
+}
+
+#button_next {
+	background-color: darkblue;
+    color: white;
+		font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 45px;
+}
+
+figcaption {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%; /* Make the caption take the full width of its container */
+    overflow-wrap: break-word; /* Allow long words to break onto the next line */
+}
+
 
 footer {
 		text-align: center;
