@@ -1,7 +1,10 @@
 body {
 	background-color: lightblue;
+	text-align: center;
 	
 }
+
+
 
 .skip {
   position: absolute;
@@ -54,7 +57,6 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-	text-decoration: ;
 	color: blue;
 }
 
@@ -75,9 +77,10 @@ a:visited {
     body { background-color: lightblue; }
 
 main {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: auto;
 	font-size: 1.4rem;
+
 }
 
 .posters {
@@ -86,16 +89,18 @@ main {
 	background-color: grey;
 }
 
-div {
-   align-items: center;
-   width: 300px;
-}
 
 
 .title{
 	display: flex;
 	align-items: center;
+}
 
+.photo{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
 .summary{ 
 display:flex; 
@@ -110,36 +115,82 @@ max-width: 300;
 		font-size: 20px;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 4em;
-		font-style: normal;
+
 	}
 
 	h2 {
 	font-family: 'Cinzel', serif;
-	font-style: italic;
+	text-decoration: underline;
 	font-size: 2em;
+
 	}
 
 	h3 {
 	font-family: 'Lora', serif;
 	font-size: 1em;
-	font-style: italic;
+	display: inline-block;
+  	max-width: 80%;
 	}
 
 
 	p { 
 	font-size: 0.8em;
 	 font-family: 'Lora', serif;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 	}
 	
+.sizetest{
+	height: 40%;
+	width: 30%;
+}
+
+.centered-image {
+  display: inline-block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: circle;
+  padding: 0; 
+  margin: 20px 0 0 20px;
+  columns: 2; 
+  column-gap: 20px;
+}
+ li {
+  margin-bottom: 8px;
+  padding-left: 3px;
+  text-align: center;
+  list-style-position: inside;
+ }
+
+#shareButton {
+  background-color: whitesmoke; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer; 
+  background-image: url('img/share.jpeg'); /* Replace with the path to your image */
+  background-size: cover; /* Adjust background size as needed */
+  width: 20px; 
+  height: 20px; /
+}
+
+#shareButton:hover {
+  /* Add hover styles if needed */
+}
 
 
-	footer {
+
+footer {
 		text-align: center;
 		background-color: white;
 		font-family: monospace;
 		padding: 10px;
+		margin-top: 3%;
 		align-self: center;
-
 	
 	}
 
