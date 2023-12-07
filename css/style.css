@@ -264,8 +264,30 @@ ul {
 .small {
 	font-size: 2em;
 	padding-top: 3%;
-	text-decoration-color: darkblue;
-	color: darkblue;
+}
+
+.gallery-image img {
+  max-width: 40%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.gallery-image.hideThis {
+  display: none; 
+
+}
+
+.button-holder {
+  text-align: center;
+}
+
+.button-holder button {
+  margin: 0 10px;
+}
+
+#stepper {
+  display: inline-block;
 }
 
 footer {
