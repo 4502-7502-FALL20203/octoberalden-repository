@@ -10,7 +10,7 @@ body {
   color: #black; /* Replace with your desired text color */
   text-align: cent;
   padding: 0px; 
-  font-size: 3em; 
+  font-size: 4em; 
   margin: 0; 
 }
 
@@ -19,7 +19,7 @@ body {
   color: #black; /* Replace with your desired text color */
   text-align: cent;
   padding: 0px; 
-  font-size: 1em; 
+  font-size: 1.25em; 
   margin: 0; 
 }
 
@@ -214,22 +214,6 @@ ul {
 	color: darkblue;
 }
 
-#shareButton {
-  background-color: whitesmoke; 
-  border: none; 
-  padding: 0; 
-  cursor: pointer; 
-  width: 20px; 
-  height: 20px; /
-}
-
-button {
-	padding-top: 200px
-}
-
-#shareButton:hover {
-  /* Add hover styles if needed */
-}
 
 .column-container {
   width: 80%;
@@ -259,6 +243,29 @@ button {
 	display: flex;
 	align-items: center;
 	font-size: 1.5em;
+}
+
+.plain {
+	text-decoration: none;
+	padding-top: 6%;
+	font-size: 1.5em;
+}
+
+.share-button {
+  background-color: black;
+  color: darkblue;
+  border: darkblue;
+  margin-right: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  
+}
+
+.small {
+	font-size: 2em;
+	padding-top: 3%;
+	text-decoration-color: darkblue;
+	color: darkblue;
 }
 
 footer {
